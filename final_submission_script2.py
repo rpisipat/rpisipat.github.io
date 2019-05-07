@@ -81,7 +81,7 @@ for line in reader:
 	else:
 		j = -1
 		# correct_answer_list.append(line)
-		if(i<4 and i>=2):
+		if(i==0 or and i==2):
 			final_correct_answer_list.append(line)
 
 	i+=1
